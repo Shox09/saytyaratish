@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
+import { RouterProvider } from "react-router";
+import { routes } from "./routes";
 
 export default function App() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <RouterProvider router={routes} />;
 }
